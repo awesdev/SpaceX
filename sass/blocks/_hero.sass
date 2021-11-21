@@ -1,0 +1,46 @@
+.hero
+    height: 100vh
+    display: flex
+    flex-direction: column
+    justify-content: center
+    &-main
+        position: relative
+        background: url(../img/hero/main/bg.jpg) center center / cover no-repeat
+        &::before
+            content: ''
+            position: absolute
+            bottom: 70px
+            right: 50%
+            width: 24px
+            height: 24px
+            cursor: pointer
+            transform: translate(50%, 0)
+            background: url(../icons/arrow-down.svg) center center / cover no-repeat
+        &__title
+            margin-top: 33px
+            width: 550px
+        &__btn
+            margin-top: 33px
+    &-planets, &-vehicles, &-spacesuits
+        align-items: center
+        &__title
+            text-align: center
+            text-transform: uppercase
+        &__text
+            margin-top: 30px
+            color: #C2ADFF
+            font-family: 'Proxima Nova'
+            font-weight: 600
+            font-size: 28px
+            line-height: calc((34 / 28) * 100%)
+            text-align: center
+            svg
+                display: block
+                margin: 17px auto 0 auto
+                cursor: pointer
+    &-planets
+        background: url(../img/hero/planets/bg.jpg) center center / cover no-repeat
+    &-vehicles
+        background: url(../img/hero/vehicles/bg.jpg) center center / cover no-repeat
+    &-spacesuits
+        background: url(../img/hero/spacesuits/bg.jpg) top center / cover no-repeat
