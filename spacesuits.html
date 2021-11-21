@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="icons/favicon.ico">
     <title>SpaceX > Spacesuits</title>
     <link rel="stylesheet" href="css/libs/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/libs/animate.min.css">
     <link rel="stylesheet" href="css/libs/fonts.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
@@ -16,7 +17,7 @@
 
     <div class="wrapper">
 
-        <header class="header">
+        <header class="header wow fadeInDown">
             <div class="container header__container">
                 <a class="header__logo" href="/">
                     <img src="img/logo.png" alt="SpaceX-logo">
@@ -42,8 +43,9 @@
 
         <main>
             <section class="hero hero-spacesuits">
-                <h1 class="title hero-spacesuits__title">Well, where can <br> you go without a SPACEsuit?</h1>
-                <p class="hero-spacesuits__text">
+                <h1 class="title hero-spacesuits__title wow fadeInUp">Well, where can <br> you go without a SPACEsuit?
+                </h1>
+                <p class="hero-spacesuits__text wow fadeInUp" data-wow-delay="0.5s">
                     <span>Lets choose!</span>
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M12 20.6425L22 10.6425L19.6489 8.28809L12 15.942L4.35275 8.28809L2 10.6408L12 20.6425Z"
@@ -54,15 +56,15 @@
             <section class="spacesuits">
                 <div class="container spacesuits__container">
                     <div class="about-spacesuits">
-                        <h2 class="about-spacesuits__name">SpaceX Suit</h2>
+                        <h2 class="about-spacesuits__name wow fadeInUp">SpaceX Suit</h2>
                         <div class="about-spacesuits__info">
-                            <h3 class="about-spacesuits__info-score">Average score: 5</h3>
-                            <p class="about-spacesuits__info-descr">
+                            <h3 class="about-spacesuits__info-score wow fadeInUp" data-wow-delay="0.5s">Average score: 5</h3>
+                            <p class="about-spacesuits__info-descr wow fadeInUp" data-wow-delay="1s">
                                 Special equipment designed to isolate a person from the external environment. <br>
                                 Parts of the equipment form a shell that is impervious to components <br>
                                 of the external environment.
                             </p>
-                            <a class="btn about-spacesuits__info-btn" href="#">Choose a suit</a>
+                            <a class="btn about-spacesuits__info-btn wow fadeInUp" href="#" data-wow-delay="1.5s">Choose a suit</a>
                         </div>
                     </div>
                 </div>
@@ -105,6 +107,10 @@
         </footer>
 
     </div>
+
+    <script src="js/libs/jquery-3.6.0.min.js"></script>
+    <script src="js/libs/wow.min.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
 

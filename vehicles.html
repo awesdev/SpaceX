@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="icons/favicon.ico">
     <title>SpaceX > Vehicles</title>
     <link rel="stylesheet" href="css/libs/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/libs/animate.min.css">
     <link rel="stylesheet" href="css/libs/fonts.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
@@ -16,7 +17,7 @@
 
     <div class="wrapper">
 
-        <header class="header">
+        <header class="header wow fadeInDown">
             <div class="container header__container">
                 <a class="header__logo" href="/">
                     <img src="img/logo.png" alt="SpaceX-logo">
@@ -42,8 +43,8 @@
 
         <main>
             <section class="hero hero-vehicles">
-                <h1 class="title hero-vehicles__title">A good STARship <br> for a good start.</h1>
-                <p class="hero-vehicles__text">
+                <h1 class="title hero-vehicles__title wow fadeInUp">A good STARship <br> for a good start.</h1>
+                <p class="hero-vehicles__text wow fadeInUp" data-wow-delay="0.5s">
                     <span>Lets choose!</span>
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M12 20.6425L22 10.6425L19.6489 8.28809L12 15.942L4.35275 8.28809L2 10.6408L12 20.6425Z"
@@ -54,18 +55,18 @@
             <section class="vehicles vehicles-1">
                 <div class="container vehicles-1__container">
                     <div class="about-vehicles">
-                        <h2 class="about-vehicles__name">Falcone 9 Block 5</h2>
+                        <h2 class="about-vehicles__name wow fadeInUp">Falcone 9 Block 5</h2>
                         <div class="about-vehicles__info">
-                            <h3 class="about-vehicles__info-launches">Total Launches: 245</h3>
-                            <h3 class="about-vehicles__info-landing">Total Landing: 191</h3>
-                            <h3 class="about-vehicles__info-score">Average score: 5</h3>
-                            <p class="about-vehicles__info-descr">
+                            <h3 class="about-vehicles__info-launches wow fadeInUp" data-wow-delay="0.5s">Total Launches: 245</h3>
+                            <h3 class="about-vehicles__info-landing wow fadeInUp" data-wow-delay="1s">Total Landing: 191</h3>
+                            <h3 class="about-vehicles__info-score wow fadeInUp" data-wow-delay="1.5s">Average score: 5</h3>
+                            <p class="about-vehicles__info-descr wow fadeInUp" data-wow-delay="2s">
                                 Falcon 9 is a reusable, two-stage rocket designed <br>
                                 and manufactured by SpaceX for the reliable and safe transport of people <br>
                                 and payloads into Earth orbit and beyond. <br>
                                 Falcon 9 is the world’s first orbital class reusable rocket.
                             </p>
-                            <a class="btn about-vehicles__info-btn" href="#">Choose a rocket</a>
+                            <a class="btn about-vehicles__info-btn wow fadeInUp" href="#" data-wow-delay="2.5s">Choose a rocket</a>
                         </div>
                     </div>
                 </div>
@@ -73,12 +74,12 @@
             <section class="vehicles vehicles-2">
                 <div class="container vehicles-2__container">
                     <div class="about-vehicles">
-                        <h2 class="about-vehicles__name">Falcone 9 Block 5</h2>
+                        <h2 class="about-vehicles__name wow fadeInUp">Falcone 9 Block 5</h2>
                         <div class="about-vehicles__info">
-                            <h3 class="about-vehicles__info-launches">Total Launches: 64</h3>
-                            <h3 class="about-vehicles__info-landing">Total Landing: 13</h3>
-                            <h3 class="about-vehicles__info-score">Average score: 5</h3>
-                            <p class="about-vehicles__info-descr">
+                            <h3 class="about-vehicles__info-launches wow fadeInUp" data-wow-delay="0.5s">Total Launches: 64</h3>
+                            <h3 class="about-vehicles__info-landing wow fadeInUp" data-wow-delay="1s">Total Landing: 13</h3>
+                            <h3 class="about-vehicles__info-score wow fadeInUp" data-wow-delay="1.5s">Average score: 5</h3>
+                            <p class="about-vehicles__info-descr wow fadeInUp" data-wow-delay="2s">
                                 Falcon Heavy is the most powerful operational rocket in the world by a factor of two.
                                 <br>
                                 With the ability to lift into orbit nearly 64 metric tons (141,000 lb) <br> Falcon Heavy
@@ -86,7 +87,7 @@
                                 Delta
                                 IV Heavy.
                             </p>
-                            <a class="btn about-vehicles__info-btn" href="#">Choose a rocket</a>
+                            <a class="btn about-vehicles__info-btn wow fadeInUp" href="#" data-wow-delay="2.5s">Choose a rocket</a>
                         </div>
                     </div>
                 </div>
@@ -134,6 +135,10 @@
         </footer>
 
     </div>
+
+    <script src="js/libs/jquery-3.6.0.min.js"></script>
+    <script src="js/libs/wow.min.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
 
