@@ -3,6 +3,33 @@
         &__item
             margin-right: 75px
 
+    .hero
+        &-planets, &-vehicles, &-spacesuits
+            &__text
+                margin-top: 15px
+                font-size: 20px
+                svg
+                    margin-top: 10px
+
+    .about
+        &-planet, &-vehicles, &-spacesuits
+            &__name
+                font-size: 70px
+            &__info
+                margin-top: 30px
+                &-time, &-visited, &-score, &-launches, &-landing
+                    font-size: 18px
+                &-visited, &-score, &-landing
+                    margin-top: 30px
+                &-descr
+                    font-size: 18px
+                    &:first-of-type
+                        margin-top: 40px
+                    &:last-of-type
+                        margin-top: 30px
+                &-btn
+                    margin-top: 30px
+
     .title
         font-size: 70px
 
@@ -11,8 +38,22 @@
         &__item
             margin-right: 50px
 
+
+    .about
+        &-planet, &-vehicles, &-spacesuits
+            &__name
+                font-size: 65px
+
+    .capablities
+        &__container
+            background-size: 100%
+
     .title
         font-size: 65px
+
+    .policy
+        &__title, &__subtitle
+            font-size: 16px
 
 @media (max-width: 768px)
     .header
@@ -22,13 +63,52 @@
     .burger-menu
         display: flex
 
+    .header
+        &__list
+            flex-direction: column
+        &__item
+            margin-right: 0
+            padding: 5px 0
+
     .hero
         &-main
             &__title
                 width: 380px
 
+    .about
+        &-planet, &-vehicles, &-spacesuits
+            &__name
+                font-size: 45px
+            &__info
+                margin-top: 20px
+                &-time, &-visited, &-score, &-launches, &-landing
+                    font-size: 18px
+                &-visited, &-score, &-landing
+                    margin-top: 20px
+                &-descr
+                    font-size: 18px
+                    &:first-of-type
+                        margin-top: 30px
+                    &:last-of-type
+                        margin-top: 20px
+                &-btn
+                    margin-top: 20px
+
+    .capablities
+        &__container
+            background-size: 120%
+
     .title
         font-size: 45px
+
+    .policy
+        padding: 100px 20px
+        &__subtitle
+            margin-top: 20px
+        &__btns
+            margin-top: 30px
+        &__btn:first-child
+            margin-right: 0
 
     .footer
         &__container
@@ -45,6 +125,29 @@
         &-main
             &__title
                 width: 320px
+        &-planets, &-vehicles, &-spacesuits
+            &__text
+                font-size: 16px
+                svg
+                    margin-top: 5px
+
+    .about
+        &-planet, &-vehicles, &-spacesuits
+            &__name
+                font-size: 25px
+            &__info
+                &-time, &-visited, &-score, &-launches, &-landing
+                    font-size: 16px
+                &-descr
+                    width: 100%
+                    font-size: 16px
 
     .title
-            font-size: 25px
+        font-size: 25px
+
+@media (max-width: 452px)
+    .policy
+        &__title, &__subtitle
+            font-size: 14px
+        &__btn:last-child
+            margin-top: 15px
